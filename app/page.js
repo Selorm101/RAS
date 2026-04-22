@@ -1,4 +1,4 @@
-"use client";
+use client";
 import { Trophy, Zap, Users, Wallet } from "lucide-react";
 
 export default function HomePage() {
@@ -26,8 +26,8 @@ export default function HomePage() {
                                                                                                                                                                                                 Level Up Your <br />
                                                                                                                                                                                                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Game Engine</span>
                                                                                                                                                                                                                       </h2>
-                                                                                                                                                                                                                                <p className="text-lg text-gray-400 mb-10 normal-case italic">Ghana's elite EA FC Mobile community. Prove your skill in the 1-100 ladder.</p>
-                                                                                                                                                                                                                                          <button className="bg-cyan-500 text-black px-10 py-4 rounded-sm font-black tracking-widest hover:bg-cyan-400 shadow-[0_0_20px_rgba(6,182,212,0.3)]">
+                                                                                                                                                                                                                                <p className="text-lg text-gray-400 mb-10 normal-case italic">Ghana's elite EA FC Mobile community.</p>
+                                                                                                                                                                                                                                          <button className="bg-cyan-500 text-black px-10 py-4 rounded-sm font-black tracking-widest hover:bg-cyan-400">
                                                                                                                                                                                                                                                       Enter Arena
                                                                                                                                                                                                                                                                 </button>
                                                                                                                                                                                                                                                                         </div>
@@ -47,42 +47,3 @@ export default function HomePage() {
                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                       );
                                                                                                                                                                                                                                                                                                                                                                                                       }
-                                                                                                                                                                                                                                                                                                                                                                                                      "use client";
-import { Trophy, Zap, Users, Wallet } from "lucide-react";
-
-export default function HomePage() {
-  return (
-    <div className="min-h-screen bg-[#050505] text-white font-sans italic uppercase">
-      <nav className="border-b border-white/10 px-6 py-4 bg-black/60 backdrop-blur-xl sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-9 h-9 bg-cyan-500 rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.5)]">
-              <Trophy size={20} className="text-black" />
-            </div>
-            <h1 className="text-2xl font-black italic">Apex <span className="text-cyan-500 text-sm font-bold">FC</span></h1>
-          </div>
-          <div className="bg-white/5 border border-white/10 px-4 py-2 rounded-full flex items-center gap-2">
-            <Wallet size={14} className="text-cyan-400" />
-            <span className="text-xs font-bold font-mono text-cyan-400">₵0.00</span>
-          </div>
-        </div>
-      </nav>
-
-      <section className="relative px-6 py-24 text-center overflow-hidden">
-        <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-600/10 blur-[120px] rounded-full"></div>
-        <div className="max-w-3xl mx-auto relative z-10">
-          <h2 className="text-6xl lg:text-8xl font-black mb-6 tracking-tighter leading-none">
-            Level Up Your <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Game Engine</span>
-          </h2>
-          <p className="text-lg text-gray-400 mb-10 normal-case italic">Ghana's elite EA FC Mobile community. Prove your skill in the 1-100 ladder.</p>
-          <button className="bg-cyan-500 text-black px-10 py-4 rounded-sm font-black tracking-widest hover:bg-cyan-400 shadow-[0_0_20px_rgba(6,182,212,0.3)]">
-            Enter Arena
-          </button>
-        </div>
-      </section>
-
-      <section className="px-6 py-20 bg-[#080808]">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {["AI Scoring", "Apex Wallet", "Identity", "Logistics"].map((title, i) => (
-            <div key={i} className="bg-[#0D0D0D] bord
